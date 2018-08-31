@@ -1,0 +1,28 @@
+{
+    "name": "marmarait/laravel-dynamic-attributes",
+    "description": "Adds Dynamic Attributes to your Models",
+    "type": "libary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romeo Semper",
+            "email": "romeo.semper@marmara.at"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/MarmaraIT/LaravelDynamicAttributes"
+        ],
+        "psr-0": {
+            "MarmaraIT\\LaravelDynamicSort\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarmaraIT\\LaravelDynamicAttributes\\DynamicallySortableProvider"
+            ]
+        }
+    }
+}
